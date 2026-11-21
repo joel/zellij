@@ -299,6 +299,11 @@ default_layout "compact"
 //   - false
 // 
 // pane_frames false
+
+// Zellij 0.45 changed the default pane_frame_style from "full" to "titles",
+// which draws only a title line instead of a frame around each pane.
+// Keep the full frame around panes.
+pane_frame_style "full"
  
 // When attaching to an existing session with other users,
 // should the session be mirrored (true)
